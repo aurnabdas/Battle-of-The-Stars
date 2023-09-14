@@ -1,0 +1,65 @@
+
+
+.bigboy{
+    
+    object-fit: scale-down;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    flex: 1;
+  
+}
+
+
+
+.four{
+    max-width: 70%;
+    height: 70%;
+}
+
+.home{
+    display: inline;
+}
+
+table, th, td {
+    border:1px solid #777;
+    padding: 0.5rem;
+    text-align: center;
+    border-collapse: collapse;
+    width: 25%;
+    table-layout:fixed;
+    
+
+
+  }
+
+.bottom{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.video{
+    position: relative;
+    left: 100px;
+    
+}
+
+/* .button{
+    vertical-align: bottom;
+    display: inline-block;
+    max-width: 5%;
+    max-height: 5%
+    
+} */
