@@ -1,0 +1,57 @@
+body {
+    background-color: grey;
+
+
+
+
+
+}
+
+/* you need display: flex to justify-content: center;
+/*  you need height to do aligns-items because the container only wrapped the element*/
+.bigboy{
+    gap: 400px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+
+
+.container{
+
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
+
+
+}
+
+/*  we need display for text-align*/
+.container1{
+
+
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+.p1{
+
+    font-family: 'Star Wars', sans-serif;
+    font-size: 20px;
+
+}
+
+.p2{
+    font-family: 'Star Trek Enterprise Future', sans-serif;
+    font-size: 30px;
+    position:relative;
+
+    top:-20px
+
+}
